@@ -4,7 +4,6 @@ class Program
 {
   static void Main()
   {
-    // StringExample.SimpleString();
-    TypeCastingExample.TypeConversion();
+    ArrayExample.MultiDimensionalArray();
   }
 }
