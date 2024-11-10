@@ -4,12 +4,9 @@ class Program
 {
   static void Main()
   {
-    Person person1 = new Person();
-    Console.WriteLine($"person1: {person1}");
-    Console.WriteLine($"person1.Name: {person1.Name}");
-
-    person1.Name = "Adi";
-    Console.WriteLine($"person1: {person1}");
-    Console.WriteLine($"person1.Name: {person1.Name}");
+    Motobike motobike1 = new Motobike();
+    motobike1.Honk();
+    Console.WriteLine(motobike1.brand);
+    Console.WriteLine(motobike1.modelName);
   }
 }
