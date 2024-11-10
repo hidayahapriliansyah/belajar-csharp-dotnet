@@ -4,9 +4,11 @@ class Program
 {
   static void Main()
   {
-    Motobike motobike1 = new Motobike();
-    motobike1.Honk();
-    Console.WriteLine(motobike1.brand);
-    Console.WriteLine(motobike1.modelName);
+    Animal animal = new Animal();
+    Animal ayam = new Ayam();
+    Animal cat = new Cat();
+    animal.AnimalSound();
+    ayam.AnimalSound();
+    cat.AnimalSound();
   }
 }
