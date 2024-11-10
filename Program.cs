@@ -4,10 +4,12 @@ class Program
 {
   static void Main()
   {
-    Car car1 = new Car(name: "Tesla", model: "X", maxSpeed: 470);
+    Person person1 = new Person();
+    Console.WriteLine($"person1: {person1}");
+    Console.WriteLine($"person1.Name: {person1.Name}");
 
-    Console.WriteLine(car1.name);
-    Console.WriteLine(car1.model);
-    Console.WriteLine(car1.maxSpeed);
+    person1.Name = "Adi";
+    Console.WriteLine($"person1: {person1}");
+    Console.WriteLine($"person1.Name: {person1.Name}");
   }
 }
