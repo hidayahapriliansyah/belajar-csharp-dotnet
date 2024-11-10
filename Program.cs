@@ -4,11 +4,8 @@ class Program
 {
   static void Main()
   {
-    Animal animal = new Animal();
-    Animal ayam = new Ayam();
-    Animal cat = new Cat();
-    animal.AnimalSound();
+    AnimalAbstract ayam = new AyamDariAbstract();
     ayam.AnimalSound();
-    cat.AnimalSound();
+    ayam.Sleep();
   }
 }
