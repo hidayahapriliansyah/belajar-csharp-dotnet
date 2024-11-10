@@ -4,8 +4,10 @@ class Program
 {
   static void Main()
   {
-    AnimalAbstract ayam = new AyamDariAbstract();
+    AyamFromInterface ayam = new AyamFromInterface();
+    // kalau untu polimorfism bisa pakai type variable class induknya
+    // kalau untuk object dari interface langsung type dai class implementasinya aja karena implementasi class bisa lebih dari 1 interface
     ayam.AnimalSound();
-    ayam.Sleep();
+    ayam.Move();
   }
 }
